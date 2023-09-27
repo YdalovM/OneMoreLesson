@@ -1,0 +1,392 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+h1, h2, h3, h4,h5,h6,p {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    border-color: #ffffff;
+    border-left: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.style {
+    color: white;
+    font-family: Poppins;
+    
+    font-weight: 600;
+}
+
+/* header */
+
+.back__img {
+    background: url(../img/road-g9875459d1_1920\ 1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1180px;
+
+}
+
+.naw {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 130px;
+}
+
+.naw__text {
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.en {
+    margin-left: 8px;
+}
+
+.lan {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/* section1 */
+
+.sec__car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1__block {
+    padding-bottom: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title__keeping {
+    font-size: 48px;
+    width: 791px;
+}
+
+.but__sec1 {
+    width: 198px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #DB2512;
+    border: none;
+    
+}
+
+/* sectoin2 */
+
+.services {
+    display: flex;
+    align-items: center;
+}
+.card {
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 98px;
+}
+
+.container__cards {
+    width: 300px;
+}
+
+.sum__tel {
+    color: rgb(153, 148, 148);
+}
+
+.tel__card {
+    color: black;
+    padding-top: 21px;
+    padding-bottom: 15px;
+}
+
+.card__1 {
+    width: 386px;
+    height: 196px;
+    background: #FFF;
+    margin-right: 38px;
+    background-color: #ffffff;
+    box-shadow: 10px 5px 5px rgb(187, 186, 186);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec__card {
+    display: flex;
+    justify-content: center;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    padding-top: 197px;
+}
+
+.img__block__ser {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.title__ser {
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.subtitle {
+    color: black;
+    font-family: Poppins;
+    line-height: normal;
+    font-size: 15px;
+}
+
+.img__block__ser {
+    padding-top: 60px;
+}
+
+.sup__text__img {
+    padding-top: 21px;
+    padding-bottom: 98px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.img__1 {
+    width: 386px;
+    height: 500px;
+    background: url(../img/iStock-1125646126\ 1.png);
+    display: flex;
+    
+    
+    flex-direction: column;
+}
+
+.but__ful {
+    padding-left: 143px;
+    padding-top: 200px;
+}
+
+.butA {
+    border: red;
+    background-color: #DB2512;
+    border-radius: 90%;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.card__2 {
+    width: 386px;
+    height: 196px;
+    background: #FFF;
+    margin-right: 38px;
+    background-color: #ffffff;
+    box-shadow: 10px 5px 5px rgb(187, 186, 186);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2__text {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.text__img1 {
+    width: 269px;
+    font-size: 18px;
+    padding: 60px 88px 60px 29px;
+}
+
+/* secton3 */
+
+.block__section__black {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.black1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 117px;
+    background-color: #000;
+}
+
+.block__section__text {
+    width: 490px;
+    padding-bottom: 116px;
+    
+}
+
+.tittext__sec__w {
+    font-size: 30px;
+}
+
+.text__sec__w {
+    font-size: 15px;
+    font-family: Poppins;
+    color: white;
+    font-weight: 600;
+    line-height: 150%;
+    padding-top: 42px;
+    padding-bottom: 48px;
+}
+
+.block__section__img {
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.text__but__sec {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    letter-spacing: 2.7px;  
+    
+}
+
+.bigtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subtext__bigtitle {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+}
+
+.text__bigtitle {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 148px;
+}
+
+.container__bigtitle {
+    padding: 99px;
+}
+
+.card__sec__big {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 99px;
+}
+
+.card__2 {
+    width: 386px;
+    height: 150px;
+    background: #FFF;
+    margin-right: 38px;
+    background-color: #ffffff;
+    box-shadow: 5px 3px 5px 3px rgb(199, 198, 198);
+}
+
+.black__username {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.title__username {
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 4.5px;
+    padding-bottom: 46px;
+}
+
+.block__black__username {
+    padding-top: 97px;
+
+}
+
+.register__usname {
+    margin-right: 48px;
+    margin-bottom: 45px;
+    background-color: black;
+    font-size: 15px;
+}
+
+.line {
+    width: 440px;
+    height: 0.785px;
+    flex-shrink: 0;
+    background: #FFF;
+    margin-top: 110px;
+}
+
+.but__reg {
+    margin-top: 37px;
+    width: 198px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #DB2512;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 97px;
+}
+
+.but__send {
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 63px;
+}
+
+.block__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__foot {
+    margin-left: 27px;
+}
